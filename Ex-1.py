@@ -1,6 +1,6 @@
 class Aluno():
     def __init__(self, nome: str, idade: int, mat: int):
-        if (isinstance(idade, str)):
+        if (isinstance(idade, int)):
             self.__nome = nome
             self.__idade = idade
             self.__mat = mat
