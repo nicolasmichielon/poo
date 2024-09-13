@@ -23,11 +23,3 @@ class Professor():
         if(isinstance(self.__orientando, Aluno)):
             return self.__orientando.nome
         return False
-
-
-nick2 = Aluno("Nicolas Michielon", "Florianopolis")
-nick = Professor("Nicholas Derham", "Florianopolis", nick2)
-nick3 = Professor("Nicholas Derham", "Florianopolis", nick)
-
-print(nick.orientando)
-print(nick3.orientando)
